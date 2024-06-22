@@ -1,1 +1,1 @@
-# hardhat_node
+# evm_testnode
