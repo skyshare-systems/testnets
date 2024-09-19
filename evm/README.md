@@ -1,3 +1,1 @@
 # evm_testnode
-
-<!-- REDEPPLOY -->
