@@ -11,3 +11,6 @@ COPY . .
 EXPOSE 8545
 
 CMD ["yarn", "hardhat", "node"]
+
+
+# REDEPLOY
