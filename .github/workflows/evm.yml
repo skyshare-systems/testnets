@@ -58,6 +58,7 @@ jobs:
           username: ${{ secrets.DROPLET_USER }}
           key: ${{ secrets.DIGITALOCEAN_SSH_KEY }}
           script: |
+            docker stop $(docker ps -aq)
             docker rm $(docker ps -aq)
             docker rmi $(docker images -q) --force
             docker system prune -a --volumes -f
